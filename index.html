@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+</head>
+<body>
+    <div id="capture">
+        <h1>Heading</h1>
+        <p>Paragraph</p>
+        
+        <div id="capture" style="background: rgb(154, 216, 213);">
+            <div align="left">
+                Left
+            </div>
+            <div align="right">
+                Rigth
+            </div>
+            <div align="center">
+                Center
+            </div>
+        </div>
+
+        <form>
+            <label for="username">Username:</label>
+            <input type="text" name="username" id="username" />
+            <label for="password">Password:</label>
+            <input type="password" name="password" id="password" />
+
+            <input type="submit" value="Submit" />
+        </form>
+    </div>
+
+<script type="text/javascript" src="./src/index.js"></script>
+<script type="text/javascript">
+    addEscapeListener('Crash?', "#capture")
+</script>
+</body>
+</html>

@@ -1,0 +1,28 @@
+{
+  "name": "pagecontentfalls",
+  "version": "1.0.0",
+  "description": "This javascript library will make your page content fall!",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "javascript",
+    "page",
+    "content",
+    "fall",
+    "down"
+  ],
+  "type": "module",
+  "author": "Angelika Lonskaya",
+  "license": "MIT",
+  "dependencies": {
+    "html2canvas": "^1.4.1"
+  },
+  "devDependencies": {
+    "browser-sync": "^2.27.9",
+    "gulp": "^4.0.2",
+    "gulp-concat": "^2.6.1",
+    "gulp-file-include": "^2.3.0"
+  }
+}
