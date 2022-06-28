@@ -67,6 +67,6 @@ function makePageContentFallDown(selector) {
             if (whiteCellsCounter >= data.length) {
                 clearInterval(intr)
             }
-        }, 10)
+        }, (1 - (maxWhiteCellsCounter / data.length)) * 10)
     });
 }
